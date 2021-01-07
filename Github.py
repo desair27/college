@@ -2,7 +2,7 @@ from github import Github
 
 def access_github_repo():
     github = Github()
-    username = github.get_user("seyekt")
+    username = github.get_user("desair")
     for repository in username.get_repos():
         print("repository name = " + repository.name)
 
